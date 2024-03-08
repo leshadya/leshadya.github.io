@@ -1,0 +1,45 @@
+.advertisement
+{
+	position: fixed;
+	top: 10px;
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:black;
+}
+.logo_image {
+	width: 250px;
+}
+.image {
+	width:250px;
+	float: left;
+	margin: 10px;
+}
+.content {
+	width: 70%;
+	padding-left: 130px;
+}
+.header {
+	padding-left: 130px;
+	width: 350px;
+}
+
+.main {
+	position: relative;
+	left: 0;
+
+}
+.head{
+	font-style: italic;
+}
+.title {
+	position: absolute;
+	left: 420px;
+	top:0;
+
+}
+.footer {
+	width: 100%;
+}
