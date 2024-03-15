@@ -1,22 +1,28 @@
 <?php
 $converted_value = '';
+
+//  if the form is submitted AND if the data is taken from the user
 if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['from_value'])) {
     $from_value = $_GET['from_value'];
     $from_currency = $_GET['from_currency'];
     $to_currency = $_GET['to_currency'];
+	// getting the values from the user
 
-    $exchange_rates = [
+    $exchange_rates = [  
             'FUSD' => ['TUSD' => 1.0,'TEUR' => 0.92, 'TCAD' => 1.35],
             'FEUR' => ['TEUR' => 1.0,'TUSD' => 1.09, 'TCAD' => 1.47],
             'FCAD' => ['TCAD' => 1.0,'TUSD' => 0.74, 'TEUR' => 0.68]
-    ];
+    ];   // defining exchange rates in an associative array
+
+	//if exchange rate fits the the selected currencies
     if (isset($exchange_rates[$from_currency][$to_currency])) {
-        $rate = $exchange_rates[$from_currency][$to_currency];
-        $converted_value = $from_value * $rate;
+        $rate = $exchange_rates[$from_currency][$to_currency];  
+        $converted_value = $from_value * $rate; // calculate the converted value
         }
 }
 
 ?>
+
 <!DOCTYPE html>
 
 <html lang="en">
