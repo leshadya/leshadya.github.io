@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //move the button randomly
     function moveButton() {
-        const x = Math.random()*900;
-        const y = Math.random()*800;
+        const x = Math.random()*300;
+        const y = Math.random()*300;
         button.style.marginLeft = x + 'px';
         button.style.marginTop = y + 'px';
     }
