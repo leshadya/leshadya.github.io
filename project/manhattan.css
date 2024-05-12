@@ -1,0 +1,514 @@
+
+
+
+/* Additional logo image styling */
+.logo img {
+  width: 65px;
+  border-radius: 20px;
+  margin: 10px;
+  margin-right: 20px;
+}
+
+/* Background and border styles for main blog sections */
+.main-blogs {
+  background-color: rgba(222, 225, 251, 0.516);
+  border-radius: 15px;
+  padding: 10px;
+  
+}
+
+/* Style for the homepage main content area */
+.main-homepage {
+  background: rgb(135, 206, 250, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+
+/* Style for language learning blog entries */
+.lan-learn-blog {
+  background-color: palegoldenrod;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 15px;
+  line-height: 25px;
+}
+
+/* Style for learning environment blog entries */
+.lear-env-blog {
+  background-color: lightsalmon;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 15px;
+  line-height: 25px;
+}
+
+/* Style for personal reflection blog entries */
+.pers-ref-blog {
+  background-color: cadetblue;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 15px;
+  line-height: 25px;
+}
+
+/* General heading styles */
+h1 {
+  display: flex;
+  align-items: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:lighter;
+  font-size: 30px;
+  
+}
+
+h2 {
+  background-color: rgba(176, 196, 222, 0.374);
+  font-family: Inter var, Inter, sans-serif;
+  margin: 15px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+h3 {
+  font-family: Inter var, Inter, sans-serif;
+  font-size: 27px;
+  margin: 7px;
+  color: #646464;
+}
+
+h4 {
+  background-color: rgba(176, 196, 222, 0.374);
+  text-align: center;
+  padding: 20px;
+  font-size: 45px;
+  font-weight: bolder;
+  color: rgb(54, 52, 52);
+  font-family: Inter var, Inter, sans-serif;
+}
+
+/* Body styling for gradient background */
+body {
+  background: linear-gradient(white, steelblue);
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flex container for column layout */
+.column {
+  display: flex;
+  padding: 20px;
+  font-family: Inter var,Inter,sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.column_left {
+  width: 70%;
+}
+
+.column_right {
+  width: 30%;
+}
+
+/* Styles for blog column, including custom scrollbar */
+.column_blogs {
+  width: 466px;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 810px;
+  margin-top: 60px;
+}
+
+/* Custom scrollbar styles */
+.column_blogs::-webkit-scrollbar {
+  width: 25px;
+  background: transparent;
+}
+
+.column_blogs::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.column_blogs::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #ccc;
+}
+
+.column_blogs::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Main content area styling */
+main {
+  display: block;
+  max-width: 1450px;
+  width: 100%;
+  margin: auto;
+  background-image: url("clouds.jpg");
+  background-size:cover;
+  background-repeat: repeat-y;
+  flex: 1;
+  border-right: 2px blue;
+  border-left:  2px blue;
+}
+
+/* Header styles, fixed position */
+header {
+  background-color: #333;
+  color: #fff;
+  height: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure the navigation bar stays on top of other content */
+}
+
+#containerr {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  max-width: max-content;
+}
+/* Style for main blog post images */
+.main-blog-img {
+  width: 100%;
+    height: auto;
+  margin-bottom: 8px;
+}
+/* Style for blog post images */
+.blog-img {
+  width: 388px;
+  margin-bottom: 8px;
+}
+
+/* Contact image styling */
+#contact-img {
+  width: 300px;
+  float: right;
+  border-radius: 40px;
+}
+
+/* Centering style for images */
+.image-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Home images styling */
+.home-img {
+  width: 300px;
+  border-radius: 80px;
+  margin: 20px;
+}
+
+
+
+/* Footer styling */
+footer {
+  max-width: 100%;
+  width: 100%;
+  padding: 10px 0;
+  height: 50px;
+  background-color: rgb(130, 159, 178);
+}
+
+/* Footer content styling */
+footer div {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+/* Social media icons styling */
+.social-media {
+  margin: 10px;
+}
+
+.social-media img {
+  width: 25px;
+}
+
+/* Custom scrollbar styling for blog columns */
+.column_blogs::-webkit-scrollbar {
+  width: 25px;
+  background: transparent;
+}
+
+.column_blogs::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.column_blogs::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #ccc;
+}
+
+.column_blogs::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Contact form styling */
+#contact-form {
+  background-color: #f0f8ff; 
+  padding: 20px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: Arial, sans-serif; 
+}
+
+
+#contact-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+#contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contact-form label {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; 
+}
+
+#contact-form textarea {
+  height: 100px;
+  resize: none; 
+}
+
+#contact-form input[type="submit"] {
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#contact-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#messageArea {
+  text-align: center;
+  color: #106ba3;
+  font-size: 16px;
+}
+
+
+.image-slider img {
+  width: 100%;
+  height: 300px; 
+  border-radius: 10px;
+  object-fit: cover; /* Resimleri keserek veya sığdırarak yüksekliğe uyacak şekilde ayarlar */
+}
+
+
+
+.image-slider {
+  max-width: 600px; /* Slider'ın maksimum genişliği */
+  margin: auto; /* Slider'ı merkeze alır */
+  overflow: hidden; /* Taşan kısımları keser */
+}
+
+label.error {
+  color: red;
+  font-size: 0.8em;
+}
+
+.post img {
+  width: 100%; /* Resimleri genişlet */
+  height: auto; /* Oranı koru */
+  margin-bottom: 10px;
+}
+
+.post {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Modal styling */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+details[open] summary {
+  display: none;
+}
+
+.image-gallery img {
+  width: 700px; /* Ayarlayın */
+  padding: 5px; /* Ayarlayın */
+  transition: transform 0.2s ease;
+  position: relative;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+}
+
+#containerr {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  max-width: max-content;
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  
+  margin-right: 50px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #d0a182;
+}
+
+main {
+  padding: 50px 20px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.social-media img:hover {
+  transform: scale(1.2);
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
