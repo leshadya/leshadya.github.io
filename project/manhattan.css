@@ -852,5 +852,34 @@ button[type="submit"]:hover {
   header {
     position: relative;
   }
+.announcement-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .announcement-header {
+    font-size: 1.5rem;
+    word-break: break-word;
+    text-align: center;
+  }
+
+  .announcement-box {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+
+  .announcement-text {
+    word-wrap: break-word;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  
 }
 
